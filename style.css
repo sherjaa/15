@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https::/picsum.photos/1000');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.nomerlar{
+    width: 100%;
+    text-align: center;
+}
+.nomerlar > * {
+    border: 4px dotted wheat;
+    opacity: 0.7;
+}
+.bir{
+    margin-top: 33vh;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: black;
+    color: blanchedalmond;
+}
+.ikki{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: black;
+    color: blanchedalmond;
+}
+.uch{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: black;
+    color: blanchedalmond;
+}
+@media (max-width:700px) {
+    .bir{
+        margin-top: 25vh;
+    }
+}
+@media (max-width:350px) {
+    .bir{
+        margin-top: 15vh;
+    }
+    .nomerlar * {
+        padding: 10px 30px;
+    }   
+}
+@media (max-width:350px) {
+    .nomerlar * {
+        font-size: 25px;
+    }   
+}
